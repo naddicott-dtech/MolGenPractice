@@ -99,22 +99,6 @@
                 userMessageDiv.textContent = 'You: ' + message;
                 chatDiv.appendChild(userMessageDiv);
     
-                // Read file content if a file is selected
-                //let fileContent = '';
-                //if (fileInput.files.length > 0) {
-                //    const file = fileInput.files[0];
-                //    try {
-                //    fileContent = await file.text();
-                //    } catch (error) {
-                //        console.error('Error reading file:', error);
-                //        const errorMessageDiv = document.createElement('div'); // Declare the variable
-                //        errorMessageDiv.className = 'message assistant';
-                //        errorMessageDiv.textContent = 'Error: Could not read the provided file.';
-                //        chatDiv.appendChild(errorMessageDiv);
-                //        return;  
-                //    }
-                //}
-    
                 // Clear inputs
                 messageInput.value = '';
                 //fileInput.value = '';
